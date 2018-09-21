@@ -1,0 +1,100 @@
+.clear {
+	clear: both;
+}
+.align-left {
+	float: left;
+	margin-right: 30px;
+	margin-bottom: 20px;
+}
+.align-right {
+	float: right;
+	margin-left: 30px;
+	margin-bottom: 20px;
+}
+.align-center {
+	text-align: center;
+}
+
+.ethereum-wallet-sendform-shortcode .spinner {
+	background: url('assets/wpspin_light.gif') no-repeat;
+	background-size: 16px 16px;
+	display: none;
+	float: right;
+	opacity: .7;
+	filter: alpha(opacity=70);
+	width: 16px;
+	height: 16px;
+	margin: 18px 5px 0;
+}
+
+.ethereum-wallet-sendform-shortcode .spinner.is-active {
+	display: block;
+}
+
+/*http://jsfiddle.net/0vzmmn0v/1/*/
+.ethereum-wallet-sendform-shortcode .alert .glyphicon{
+    display:table-cell;
+}
+
+.ethereum-wallet-sendform-shortcode .alert div,
+.ethereum-wallet-sendform-shortcode .alert span{
+    padding-left: 5px;
+}
+
+.ethereum-wallet-sendform-shortcode .alert div {
+    display:table-cell;
+}
+
+.ethereum-wallet-sendform-shortcode #ethereum-wallet-tx-in-progress-spinner {
+    margin-top: 10px;
+}
+
+.ethereum-wallet-description {
+	text-align:center;
+	font-size:18px;
+	line-height:30px;
+	margin-bottom:44px;
+	margin-top: 30px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button
+{
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number]
+{
+  -moz-appearance: textfield;
+}
+
+.ethereum-wallet-balance-value {
+    text-align: right;
+}
+
+.col-md-6.col-6.ethereum-wallet-balance-token-name-wrapper {
+    margin-left: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.col-md-6.col-6.ethereum-wallet-balance-value-wrapper {
+    margin-right: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.ethereum-wallet-balance-token-name {
+    padding-left: 5px;
+}
+
+.twbs select.form-control {
+    background: #fff url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E") no-repeat right 0.75rem center!important;
+    background-size: 8px 10px!important;
+    height: inherit!important;
+}

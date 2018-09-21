@@ -1,0 +1,216 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ethereum-wallet\n"
+"POT-Creation-Date: 2018-08-06 13:22+0700\n"
+"PO-Revision-Date: 2018-03-13 09:23+0700\n"
+"Last-Translator: \n"
+"Language-Team: ethereumicoio\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
+"X-Poedit-SearchPathExcluded-1: node_modules\n"
+"X-Poedit-SearchPathExcluded-2: nbproject\n"
+
+#: ethereum-wallet.admin.php:50
+msgid "Settings saved."
+msgstr ""
+
+#: ethereum-wallet.admin.php:66 ethereum-wallet.php:850
+msgid "Ethereum Wallet Settings"
+msgstr ""
+
+#: ethereum-wallet.admin.php:80
+msgid "Infura.io API Key"
+msgstr ""
+
+#: ethereum-wallet.admin.php:83
+msgid "Put your Infura.io API Key here"
+msgstr ""
+
+#: ethereum-wallet.admin.php:85
+#, php-format
+msgid "The API key for the %1$s. You need to register on this site to obtain it. After register you'll get a mail with links like that: %2$s. Copy the %3$s part here."
+msgstr ""
+
+#: ethereum-wallet.admin.php:95
+msgid "Blockchain"
+msgstr ""
+
+#: ethereum-wallet.admin.php:99
+msgid "The blockchain used: mainnet or ropsten. Use mainnet in production, and ropsten in test mode. See plugin documentation for the testing guide."
+msgstr ""
+
+#: ethereum-wallet.admin.php:105
+msgid "Gas Limit"
+msgstr ""
+
+#: ethereum-wallet.admin.php:109
+msgid "The default gas limit to to spend on your transactions. 200000 is a reasonable default value."
+msgstr ""
+
+#: ethereum-wallet.admin.php:115
+msgid "Gas price"
+msgstr ""
+
+#: ethereum-wallet.admin.php:119
+msgid "The gas price in Gwei. Reasonable values are in a 2-40 ratio. The default value is 2 that is cheap but not very fast. Increase if you want transactions to be mined faster, decrease if you want pay less fee per transaction."
+msgstr ""
+
+#: ethereum-wallet.admin.php:129
+msgid "Save Changes"
+msgstr ""
+
+#: ethereum-wallet.admin.php:130
+msgid "Are you sure you want to delete all Ethereum Wallet options?"
+msgstr ""
+
+#: ethereum-wallet.admin.php:130
+msgid "Reset"
+msgstr ""
+
+#: ethereum-wallet.admin.php:135
+msgid "Want to sell ERC20 token for fiat and/or Bitcoin?"
+msgstr ""
+
+#: ethereum-wallet.admin.php:137
+#, php-format
+msgid "Install the %1$sCryptocurrency Product for WooCommerce plugin%2$s!"
+msgstr ""
+
+#: ethereum-wallet.admin.php:142
+msgid "Want to accept Ether or any ERC20/ERC223 token in your WooCommerce store?"
+msgstr ""
+
+#: ethereum-wallet.admin.php:144
+#, php-format
+msgid "Install the %1$sEther and ERC20 tokens WooCommerce Payment Gateway%2$s plugin!"
+msgstr ""
+
+#: ethereum-wallet.admin.php:149
+msgid "Want to sell your ERC20/ERC223 ICO token from your ICO site?"
+msgstr ""
+
+#: ethereum-wallet.admin.php:151
+#, php-format
+msgid "Install the %1$sThe EthereumICO Wordpress plugin%2$s!"
+msgstr ""
+
+#: ethereum-wallet.admin.php:156
+msgid "Need help to configure this plugin?"
+msgstr ""
+
+#: ethereum-wallet.admin.php:158 ethereum-wallet.admin.php:165
+#, php-format
+msgid "Feel free to %1$shire me!%2$s"
+msgstr ""
+
+#: ethereum-wallet.admin.php:163
+msgid "Need help to develop a ERC20 token for your ICO?"
+msgstr ""
+
+#: ethereum-wallet.admin.php:175
+#, php-format
+msgid "In order to sell your ERC20/ERC223 tokens install the %1$sPRO plugin version%2$s please."
+msgstr ""
+
+#: ethereum-wallet.php:124 ethereum-wallet.php:127 ethereum-wallet.php:515
+msgid "ETH"
+msgstr ""
+
+#: ethereum-wallet.php:130
+msgid "K"
+msgstr ""
+
+#: ethereum-wallet.php:132
+msgid "M"
+msgstr ""
+
+#: ethereum-wallet.php:151
+msgid "Result code is not 200"
+msgstr ""
+
+#: ethereum-wallet.php:155
+msgid "Empty body"
+msgstr ""
+
+#: ethereum-wallet.php:160
+msgid "No result field"
+msgstr ""
+
+#: ethereum-wallet.php:259
+msgid "Network problems detected. Last action was not completed."
+msgstr ""
+
+#: ethereum-wallet.php:362
+msgid "Failed to retrive token balance"
+msgstr ""
+
+#: ethereum-wallet.php:401
+msgid "Account"
+msgstr ""
+
+#: ethereum-wallet.php:486
+msgid "To"
+msgstr ""
+
+#: ethereum-wallet.php:490
+msgid "Input the recipient ethereum address"
+msgstr ""
+
+#: ethereum-wallet.php:501 ethereum-wallet.php:723
+msgid "Amount"
+msgstr ""
+
+#: ethereum-wallet.php:528
+msgid "Last transaction is still in progress. Wait please."
+msgstr ""
+
+#: ethereum-wallet.php:538 ethereum-wallet.php:539
+msgid "Send"
+msgstr ""
+
+#: ethereum-wallet.php:680 ethereum-wallet.php:722
+msgid "#"
+msgstr ""
+
+#: ethereum-wallet.php:681
+msgid "Balance"
+msgstr ""
+
+#: ethereum-wallet.php:682
+msgid "Token"
+msgstr ""
+
+#: ethereum-wallet.php:724
+msgid "Date"
+msgstr ""
+
+#: ethereum-wallet.php:725
+msgid "Tx"
+msgstr ""
+
+#: ethereum-wallet.php:832
+msgid "Copied to clipboard"
+msgstr ""
+
+#: ethereum-wallet.php:833
+msgid "Insufficient Ether balance for tx fee payment."
+msgstr ""
+
+#: ethereum-wallet.php:851
+msgid "Ethereum Wallet"
+msgstr ""
+
+#: ethereum-wallet.php:870
+msgid "Settings"
+msgstr ""
